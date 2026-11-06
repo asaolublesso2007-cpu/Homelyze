@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="top">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="/homelyze-logo.png" alt="">
+                    </div>
+                    <div class="words">
+                        <div class="home">
+                            <h3>Home</h3>
+                        </div>
+                        <div class="shop dropdown">
+                            <h3>Shop</h3>
+                            <img src="/angle-down-solid-full.svg" alt="">
+                            <div class="dropdown_menu">
+                                <a href="#">
+                                    <img src="/store-solid-full.svg" alt="">
+                                    <span>Shop All Products</span>
+                                </a>
+                                <a href="#new_arrival">
+                                    <img src="/star-solid-full.svg" alt="">
+                                    <span>New Arrivals</span>
+                                </a>
+                                <a href="#best_sellers">
+                                    <img src="/fire-solid-full.svg" alt="">
+                                    <span>Best Sellers</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/tags-solid-full.svg" alt="">
+                                    <span>Special Offers</span>
+                                </a>
+                                <a href="#featured_products">
+                                    <img src="/gift-solid-full.svg" alt="">
+                                    <span>Featured Collections</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories dropdown">
+                            <h3>Categories</h3>
+                            <img src="/angle-down-solid-full.svg" alt="">
+                            <div class="dropdown_menu categories_menu">
+                                <a href="#">
+                                    <img src="/couch-solid-full.svg" alt="">
+                                   <span>Living Room & Furniture</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/bed-solid-full.svg" alt="">
+                                    <span>Bedroom & Bedding</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/utensils-solid-full.svg" alt="">
+                                    <span>Kitchen & Dining</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/blender-solid-full.svg" alt="">
+                                    <span>Home Appliances</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/lightbulb-regular-full.svg" alt="">
+                                    <span>Lighting</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/paint-roller-solid-full.svg" alt="">
+                                    <span>Home Decor</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/bath-solid-full.svg" alt="">
+                                    <span>Bathroom & Sanitary</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/tent-solid-full.svg" alt="">
+                                    <span>Outdoor & Exterior</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <h3>About Us</h3>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <input type="text" id="product_search" placeholder="Search">
+                        <button><img src="/magnifying-glass-solid-full.svg" alt=""></button>
+                    </div>
+                    <a href="cart.html" class="cart-link">
+                        <img src="/cart-shopping-solid-full.svg" alt="">
+                        <span id="cart_counter">0</span>
+                    </a>
+                    <img id="user" src="/user-regular-full.svg" alt="">
+                </div>
+            </div>
+            <div class="middle">
+                <section class="hero_slider">
+                    <div class="slide slide_one active">
+                        <div class="slide_content">
+                            <h4>INTERIOR • EXTERIOR • HOME APPLIANCES</h4>
+                            <h1>
+                                Transform Your Space,
+                                <span>Elevate Your Living.</span>
+                            </h1>
+                            <p>
+                                Premiun furniture, stylish decor and top 
+                                quality home appliances, all in one space.
+                            </p>
+                            <div class="slide_buttons">
+                                <a href="#featured_products" class="primary_btn">
+                                    Shop Collection
+                                </a>
+                                <a href="#category_r" class="secondary_btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_two">
+                        <div class="slide_content">
+                            <h4>COMFORT • STYLE • ELEGANCE</h4>
+                            <h1>
+                                Give Your Home
+                                <span>the Elegance It Deserves.</span>
+                            </h1>
+                            <p>
+                                Discover beautifully crafted furniture and timeless interior pieces that bring comfort 
+                                and sophistication to your space.
+                            </p>
+                            <div class="slide_buttons">
+                                <a href="#featured_products" class="primary_btn">
+                                    Explore Furniture
+                                </a>
+                                <a href="#category_r" class="secondary_btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_three">
+                        <div class="slide_content">
+                            <h4>SMART • LIVING • MODERN ESSENTIALS</h4>
+                            <h1>
+                                Modern Living Starts
+                                <span>with the Right Essentials.</span>
+                            </h1>
+                            <p>
+                                Make everyday living easier with quality home appliances designed for convenience and comfort.
+                            </p>
+                            <div class="slide_buttons">
+                                <a href="#featured_products" class="primary_btn">
+                                    Explore Appliances
+                                </a>
+                                <a href="#category_r" class="secondary_btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_four">
+                        <div class="slide_content">
+                            <h4>OUTDOOR • LIVING • BEAUTIFUL SPACES</h4>
+                            <h1>
+                                Beautiful Living Goes
+                                <span>Beyond Your Walls.</span>
+                            </h1>
+                            <p>
+                                Create inviting outdoor spaces with elegant garden furniture, exterior lighting and stylish outdoor essentials.
+                            </p>
+                            <div class="slide_buttons">
+                                <a href="#featured_products" class="primary_btn">
+                                    Explore Outdoors
+                                </a>
+                                <a href="#category_r" class="secondary_btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="changeSlide(-1)">&#10094</button>
+                    <button class="next" onclick="changeSlide(1)">&#10095</button>
+                    <div class="slide_dots">
+                        <button class="dot active" onclick="goToSlide(0)"></button>
+                        <button class="dot" onclick="goToSlide(1)"></button>
+                        <button class="dot" onclick="goToSlide(2)"></button>
+                        <button class="dot" onclick="goToSlide(3)"></button>
+                    </div>
+                </section>
+                <section class="benefits">
+                    <div class="benfit">
+                        <img src="/truck-regular-full.svg" alt="">
+                        <div>
+                            <h3>Reliable Delivery</h3>
+                            <p>We deliver to your doorstep</p>
+                        </div>
+                    </div>
+                    <div class="benfit">
+                        <img src="/ranking-star-solid-full.svg" alt="">
+                        <div>
+                            <h3>Premium Quality</h3>
+                            <p>Quality products you can trust</p>
+                        </div>
+                    </div>
+                    <div class="benfit">
+                        <img src="/lock-solid-full.svg" alt="">
+                        <div>
+                            <h3>Secure Shopping</h3>
+                            <p>Shop with confidence</p>
+                        </div>
+                    </div>
+                    <div class="benfit">
+                        <img src="/headset-solid-full.svg" alt="">
+                        <div>
+                            <h3>Customer Support</h3>
+                            <p>We're always here to help</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="category_r" id="category_r">
+                    <div class="section_heading">
+                        <p>EXPLORE OUR COLLECTION</p>
+                        <h2>Shop by Categories</h2>
+                        <span>
+                            Find everything you need to make your space beautiful.
+                        </span>
+                    </div>
+                    <div class="category_container">
+                        <div class="category_card">
+                            <img src="/decorated siiting room.jpeg" alt="">
+                            <div class="category_info">
+                                <h3>Living Room & Funiture</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="category_card">
+                            <img src="/Bedroom Interior Design.jpg" alt="">
+                            <div class="category_info">
+                                <h3>Bedroom & Bedding</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="category_card">
+                            <img src="/dinning rooom decrorated.avif" alt="">
+                            <div class="category_info">
+                                <h3>Kitchen & Dinning</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="category_card">
+                            <img src="/refrigerator.webp" alt="">
+                            <div class="category_info">
+                                <h3>Home Appliances</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="category_card">
+                            <img src="/chandelier.jpg" alt="">
+                            <div class="category_info">
+                                <h3>Lighting</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="category_card">
+                            <img src="/mirror wall.webp" alt="">
+                            <div class="category_info">
+                                <h3>Home Decor</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="category_card">
+                            <img src="/bathroom design.jpg" alt="">
+                            <div class="category_info">
+                                <h3>Bathroom & Sanitary</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="category_card">
+                            <img src="/outdoors.jpg" alt="">
+                            <div class="category_info">
+                                <h3>Outdoor & Exterior</h3>
+                                <a href="#featured_products">Explore Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="products_section" id="featured_products">
+                    <div class="section_heading">
+                        <p>HANDPICKED FOR YOU</p>
+                        <h2>Featured Products</h2>
+                        <span>Discover our selection of beautiful pieces for your home</span>
+                    </div>
+                    <div class="product_container">
+                        <div class="product_card" data-name="Luxury Sofa" data-price="450000">
+                            <div class="product_image">
+                                <img src="/sofa.jpeg" alt="">
+                            </div>
+                            <div class="product_details">
+                                <p>Living Room & Furniture</p>
+                                <h3>Luxury Sofa</h3>
+                                <h4>450,000</h4>
+                                <button class="add_cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product_card" data-name="Modern Chandelier" data-price="120000">
+                            <div class="product_image">
+                                <img src="/lightening.jpeg" alt="">
+                            </div>
+                            <div class="product_details">
+                                <p>Lighting</p>
+                                <h3>Modern Chandelier</h3>
+                                <h4>120,000</h4>
+                                <button class="add_cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product_card" data-name="Upholstered Bed Frame" data-price="280000">
+                            <div class="product_image">
+                                <img src="/bedd.jpeg" alt="">
+                            </div>
+                            <div class="product_details">
+                                <p>Bedroom & Bedding</p>
+                                <h3>Upholstered Bed Frame</h3>
+                                <h4>280,000</h4>
+                                <button class="add_cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                         <div class="product_card" data-name="Double Door Refrigerator" data-price="650000">
+                            <div class="product_image">
+                                <img src="/refrigerator.webp" alt="">
+                            </div>
+                            <div class="product_details">
+                                <p>Home Appliances</p>
+                                <h3>Double Door Refrigerator</h3>
+                                <h4>650,000</h4>
+                                <button class="add_cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="promo_banner">
+                    <div class="promo_content">
+                        <p>EXCLUSIVE OFFERS</p>
+                        <h2>
+                         Make Your Dream Space
+                         <span>Reality</span>
+                        </h2>
+                        <p>
+                         Discover exceptional pieces at prices you'll love.
+                         Find something special for every corner of your home.
+                        </p>
+                       <a href="#featured_products">
+                         Explore Offers →
+                       </a>
+                    </div>
+                </section>
+                <section class="products_section" id="new_arrival">
+                    <div class="section_heading">
+                        <p>JUST LANDED</p>
+                        <h2>New Arrivals</h2>
+                        <span>Fresh additions to elevate your space.</span>
+                    </div>
+                    <div class="product_container">
+                        <div id="tv" class="product_card" data-name="Modern Tv Console" data-price="1800000">
+                            <img src="/tv4.jpeg" alt="">
+                            <div class="product_details">
+                                <p>Home Appliances</p>
+                                <h3>Modern TV Console</h3>
+                                <h4>1.800,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div id="tv" class="product_card" data-name="Luxury Dinning Set" data-price="23000000">
+                            <img src="/dining set.....jpeg" alt="">
+                            <div class="product_details">
+                                <p>Kitchen & Dinning</p>
+                                <h3>Luxury Dinning Set</h3>
+                                <h4>2.300,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div id="tv" class="product_card" data-name="Wall Mirror" data-price="80000">
+                            <img src="/mir.jpeg" alt="">
+                            <div class="product_details">
+                                <p>Home Decor</p>
+                                <h3>Wall Mirror</h3>
+                                <h4>80,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div id="tv" class="product_card" data-name="Standing Air Conditioner" data-price="350000">
+                            <img src="/ac.jpeg" alt="">
+                            <div class="product_details">
+                                <p>Home Appliances</p>
+                                <h3>Standing Air Conditionerr</h3>
+                                <h4>350,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="products_section" id="best_sellers">
+                    <div class="section_heading">
+                        <p>CUSTOMER FAVOURITES</p>
+                        <h2>Our Best Sellers</h2>
+                        <span>Popular picks loved by our customers</span>
+                    </div>
+                    <div class="product_container">
+                        <div class="product_card" data-name="Double Door Refrigerator" data-price="650000">
+                            <img src="refrigerator.webp" alt="">
+                            <div class="product_details">
+                                <p>Home Appliances</p>
+                                <h3>Double Door Refrigerator</h3>
+                                <h4>650,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product_card" data-name="L-shaped Sofa" data-price="450000">
+                            <img src="/lshapedsofa.jpeg" alt="">
+                            <div class="product_details">
+                                <p>Living Room & Furniture</p>
+                                <h3>L-Shaped Sofa</h3>
+                                <h4>450,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product_card" data-name="Crystals Chandelier" data-price="250000">
+                            <img src="/chand.jpeg" alt="">
+                            <div class="product_details">
+                                <p>Lighting</p>
+                                <h3>Crystals Chandelier</h3>
+                                <h4>250,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product_card" data-name="Marble Dinning Set" data-price="100000">
+                            <img src="/marble.jpeg" alt="">
+                            <div class="product_details">
+                                <p>Kitchen & Dinning</p>
+                                <h3>Marble Dinning Set</h3>
+                                <h4>1,000,000</h4>
+                                <button class="add_cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="bottom">
+                <section class="newsletter">
+                    <h2>Stay inspired with Homelyze</h2>
+                    <p>
+                        Subscribe to receive updates on new arrivals, exclusive offers and more.
+                    </p>
+                    <form>
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </section>
+                <footer class="footer">
+                    <div class="footer_container">
+                        <div class="footer_about">
+                            <h2>Homelyze</h2>
+                            <p>
+                                Transforming spaces and elevating everyday living
+                                with quality products and timeless designs.
+                            </p>
+                        </div>
+                        <div class="footer_links">
+                            <h3>Quik links</h3>
+                            <a href="#">Home</a>
+                            <a href="#">Categories</a>
+                            <a href="#">Skop</a>
+                            <a href="#">About Us</a>
+                        </div>
+                        <div class="footer_links">
+                            <h3>Customer Service</h3>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Delivery information</a>
+                            <a href="#">Return Policy</a>
+                            <a href="#">FAQs</a>
+                        </div>
+                        <div class="footer_links">
+                            <h3>Contact Us</h3>
+                            <a href="#">Phone: 08120835512</a>
+                            <a href="#">Email: Homelyze@gmail.com</a>
+                        </div>              
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© 2026 Homelyze. All Rights Reserved.</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="/indes.js"></script>
+</body>
+</html>
